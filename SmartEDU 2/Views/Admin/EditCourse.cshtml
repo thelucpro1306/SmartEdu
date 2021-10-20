@@ -1,0 +1,62 @@
+﻿@model SmartEDU_2.Models.KHOAHOC
+
+@{
+    ViewBag.Title = "EditCourse";
+    Layout = "~/Views/Shared/_LayoutAd.cshtml";
+}
+
+<h2>Chỉnh sửa</h2>
+
+@using (Html.BeginForm("EditCourse", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <h4>Khóa học</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.MAKHOAHOC)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.TENKHOAHOC, "Tên khóa học", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.TENKHOAHOC, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.TENKHOAHOC, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.MOTA, "MÔ TẢ", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <textarea name="Mota"> @Model.MOTA</textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.HOCPHI, "Học phí ", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.HOCPHI, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.HOCPHI, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ANHBIA, "Ảnh bìa", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <input type="file" name="fileupload" />
+            <img src="@Url.Content("~/images/"+ Model.ANHBIA)" width="120px" />
+            
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input class=" btn btn-3d btn-primary" type="submit" value="Lưu" class="btn btn-default" />
+            <button class=" btn btn-3d btn-primary"> @Html.ActionLink("TRỞ VỀ", "ListCourse") </button>
+               
+            
+        </div>
+    </div>
+</div>
+}
+

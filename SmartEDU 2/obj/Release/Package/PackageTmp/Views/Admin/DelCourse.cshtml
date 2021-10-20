@@ -1,0 +1,103 @@
+﻿@model SmartEDU_2.Models.KHOAHOC
+
+@{
+    ViewBag.Title = "DelCourse";
+    Layout = "~/Views/Shared/_LayoutAd.cshtml";
+}
+
+<style>
+
+    #table {
+        font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+        margin-top: 20px;
+        margin-left: 400px;
+    }
+
+        #table td, #table th {
+            border: 1px solid #73caef;
+            padding: 8px;
+        }
+
+        #table tr {
+            background-color: bisque;
+        }
+
+            #table tr:hover {
+                background-color: #73caef;
+            }
+
+        #table th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: white;
+            color: black;
+        }
+</style>
+
+<br />
+
+<h2 style="color: brown ; font-size:20px; text-align:center">XÓA KHÓA HỌC</h2>
+
+
+<table id="table">
+
+    <tr>
+        <th>
+            /bizweb.dktcdn.net/100/238/035/themes/568018/assets/logof1c3.png?1503560945961
+            Tên khóa học :
+        </th>
+
+        <td>
+            @Html.DisplayFor(model => model.TENKHOAHOC)
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Mô tả :
+        </th>
+
+        <td>
+            @Html.Raw(Model.MOTA)
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Học phí
+        </th>
+
+        <td>
+            @Html.DisplayFor(model => model.HOCPHI)
+        </td>
+    </tr>
+
+    <tr>
+
+        <th>
+            Ảnh bìa :
+        </th>
+
+        <td>
+            <img src="@Url.Content("~/images/"+Model.ANHBIA)" width="120px" />
+        </td>
+    </tr>
+
+</table>
+
+
+<br />
+<br />
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color" align="center">
+        <input type="submit" value="Xóa" class="btn btn-danger" /> |
+        <button class="btn btn-black"> @Html.ActionLink("Trở về", "ListCourse", "Admin")</button>
+    </div>
+}
+
+

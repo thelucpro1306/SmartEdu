@@ -1,0 +1,72 @@
+﻿@{ 
+    Layout = null;
+}
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Đăng nhập Admin</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Classic Login Form Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements" />
+    <script type="application/x-javascript">
+         addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+        function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- Meta tag Keywords -->
+    <!-- css files -->
+    <link rel="stylesheet" href="~/LoginAdmin/css/style.css" type="text/css" media="all" /> <!-- Style-CSS -->
+    <link rel="stylesheet" href="~/LoginAdmin/css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
+    <!-- //css files -->
+    <!-- js -->
+    <script src="~/LoginAdmin/js/jquery-2.1.4.min.js"></script>
+
+    <!-- //js -->
+    <!-- online-fonts -->
+    <link href="//fonts.googleapis.com/css?family=Oleo+Script:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <!-- //online-fonts -->
+</head>
+<body data-vide-bg="/LoginAdmin/video/Ipad.mp4">
+
+    <script src="~/LoginAdmin/js/jquery.vide.min.js"></script>
+    <!-- main -->
+
+
+
+    <div class="center-container">
+        <!--header-->
+        <div class="header-w3l">
+            <h1>Admin SmartEDU</h1>
+        </div>
+        <!--//header-->
+        <div class="main-content-agile">
+            <div class="sub-main-w3">
+                <div class="wthree-pro">
+                    <h2>Login Here</h2>
+                </div>
+                @using (Html.BeginForm("LoginAdmin", "Admin"))
+                {
+                    <form action="#" method="post">
+                        <input placeholder="Username " name="Name" class="user" type="email" required="">
+                        <span class="icon1"><i class="fa fa-user" aria-hidden="true"></i></span><br><br>
+                        <input placeholder="Password" name="Password" class="pass" type="password" required="">
+                        <span class="icon2"><i class="fa fa-unlock" aria-hidden="true"></i></span><br>
+                        <div class="sub-w3l">
+                            <h6><a href="~/LoginAdmin/#">Forgot Password?</a></h6>
+                            <div class="right-w3l">
+                                <input type="submit" value="Login">
+                            </div>
+                        </div>
+                    </form>
+                }
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+    
+        </div>
+
+    </div>
+ 
+
+</body>
+</html>

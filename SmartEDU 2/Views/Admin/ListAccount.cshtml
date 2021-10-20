@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "DS tài khoản";
+    Layout = "~/Views/Shared/_LayoutAd.cshtml";
+}
+<div class="panel box-shadow-none content-header">
+    <div class="panel-body">
+        <div class="col-md-12">
+            <h3 class="animated fadeInLeft">Danh sách phụ huynh</h3>
+            <p class="animated fadeInDown">
+                Admin <span class="fa-angle-right fa"></span> Danh sách phụ huynh
+            </p>
+        </div>
+    </div>
+</div>
+<div class="col-md-12 top-20 padding-0">
+    <div class="col-md-12">
+        <div class="panel">
+            <div class="panel-heading"><h3>Danh sách phụ huynh</h3></div>
+            <br />
+
+            <p>
+                <button class="btn btn-3d btn-success" type="button">@Html.ActionLink("Thêm tài khoản", "Register")</button>
+            </p>
+            <div class="panel-body">
+                <div class="responsive-table">
+                    <table id="datatables-example" class="table table-striped table-bordered" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Họ tên phụ huynh</th>
+                                <th>Tên đăng nhập</th>
+                                <th>Mật khẩu</th>
+                                <th>Số điện thoại</th>
+                                <th>Chức năng</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                            <tr>
+                                <td class="column1">@item.HOTEN</td>
+                                <td class="column2">@item.TENDANGNHAP</td>
+                                <td class="column3">@item.MATKHAU</td>
+                                <td class="column1">@item.SDT</td>
+                                <td>
+                                    <button class="btn-3d btn-primary" style="height: 20px ; width: 56.06px">  @Html.ActionLink("Sửa", "EditAccount", new { id = item.ID }) </button>|
+                                    <button class="btn-3d btn-danger"style="height: 20px ; width: 56.06px"> @Html.ActionLink("Xóa", "DelAccount", new { id = item.ID })</button>
+                                    <a>@Html.ActionLink("Send SMS", "Send", "SMS")</a>
+                                </td>
+                            </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

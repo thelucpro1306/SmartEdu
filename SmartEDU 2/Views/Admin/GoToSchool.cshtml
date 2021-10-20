@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "DS đăng kí khóa học";
+    Layout = "~/Views/Shared/_LayoutAd.cshtml";
+}
+<div class="panel box-shadow-none content-header">
+    <div class="panel-body">
+        <div class="col-md-12">
+            <h3 class="animated fadeInLeft">Danh sách phụ huynh</h3>
+            <p class="animated fadeInDown">
+                Admin <span class="fa-angle-right fa"></span> Danh sách đăng kí khóa học
+            </p>
+        </div>
+    </div>
+</div>
+<div class="col-md-12 top-20 padding-0">
+    <div class="col-md-12">
+        <div class="panel">
+            <div class="panel-heading"><h3>Danh sách đăng kí khóa học</h3></div>
+
+            <div class="panel-body">
+                <div class="responsive-table">
+                    <table id="datatables-example" class="table table-striped table-bordered" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Mã phiếu</th>
+                                <th>Họ tên cha</th>
+                                <th>Họ tên mẹ</th>
+                                <th>Nghề nghiệp cha</th>
+                                <th>Nghề nghiệp mẹ</th>
+                                <th>số điện thoại</th>
+                                <th>Địa chỉ</th>
+                                <th>Họ tên bé</th>
+                                <th>Năm sinh</th>
+                                <th>Giới tính</th>
+                                <th>Mã khóa học</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="column1">@item.MAPHIEU</td>
+                                    <td class="column2">@item.HOTENCHA</td>
+                                    <td class="column3">@item.HOTENME</td>
+                                    <td class="column4">@item.NGHECUACHA</td>
+                                    <td class="column5">@item.NGHECUAME</td>
+                                    <td class="column6">@item.SDT</td>
+                                    <td class="column1">@item.DIACHI</td>
+                                    <td class="column2">@item.HOTENBE</td>
+                                    <td class="column3">@item.NAMSINH</td>
+                                    <td class="column4">@item.GIOITINH</td>
+                                    <td class="column5">@item.MAKHOAHOC</td>
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

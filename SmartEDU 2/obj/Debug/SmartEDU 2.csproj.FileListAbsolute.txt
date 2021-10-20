@@ -1,0 +1,306 @@
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\ApplicationInsights.config
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\SmartEDU 2.dll.config
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\SmartEDU 2.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\SmartEDU 2.pdb
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Antlr3.Runtime.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\EntityFramework.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\EntityFramework.SqlServer.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Microsoft.AI.Web.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Newtonsoft.Json.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\PagedList.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\PagedList.Mvc.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\System.Web.Helpers.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\System.Web.Mvc.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\System.Web.Optimization.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\System.Web.Razor.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\System.Web.WebPages.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\System.Web.WebPages.Razor.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\WebGrease.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\EntityFramework.xml
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\EntityFramework.SqlServer.xml
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\PagedList.xml
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\PagedList.Mvc.xml
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\System.Web.Helpers.xml
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\System.Web.Mvc.xml
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\System.Web.Optimization.xml
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\System.Web.Razor.xml
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\System.Web.WebPages.xml
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\System.Web.WebPages.Razor.xml
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Antlr3.Runtime.pdb
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Newtonsoft.Json.xml
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\bin\Microsoft.AI.Web.xml
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\obj\Debug\SmartEDU 2.csproj.CoreCompileInputs.cache
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\obj\Debug\SmartEDU 2.csproj.CopyComplete
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\obj\Debug\SmartEDU 2.dll
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\obj\Debug\SmartEDU 2.pdb
+C:\Users\ThanhLuan\Desktop\Code\SmartEDU 2\obj\Debug\SmartEDU 2.csprojAssemblyReference.cache
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\ApplicationInsights.config
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\SmartEDU 2.dll.config
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\SmartEDU 2.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\SmartEDU 2.pdb
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Antlr3.Runtime.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\EntityFramework.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\EntityFramework.SqlServer.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Microsoft.AI.Web.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Newtonsoft.Json.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\PagedList.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\PagedList.Mvc.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\System.Web.Helpers.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\System.Web.Mvc.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\System.Web.Optimization.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\System.Web.Razor.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.Razor.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\WebGrease.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\EntityFramework.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\EntityFramework.SqlServer.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\PagedList.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\PagedList.Mvc.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\System.Web.Helpers.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\System.Web.Mvc.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\System.Web.Optimization.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\System.Web.Razor.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.Razor.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Antlr3.Runtime.pdb
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Newtonsoft.Json.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\bin\Microsoft.AI.Web.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.csprojAssemblyReference.cache
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.csproj.CoreCompileInputs.cache
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.csproj.CopyComplete
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.pdb
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\ApplicationInsights.config
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\SmartEDU 2.dll.config
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\SmartEDU 2.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\SmartEDU 2.pdb
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Antlr3.Runtime.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\EntityFramework.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\EntityFramework.SqlServer.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Microsoft.AI.Web.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Newtonsoft.Json.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\PagedList.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\PagedList.Mvc.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\System.Web.Helpers.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\System.Web.Mvc.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\System.Web.Optimization.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\System.Web.Razor.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.Razor.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\WebGrease.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\EntityFramework.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\EntityFramework.SqlServer.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\PagedList.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\PagedList.Mvc.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\System.Web.Helpers.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\System.Web.Mvc.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\System.Web.Optimization.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\System.Web.Razor.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.Razor.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Antlr3.Runtime.pdb
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Newtonsoft.Json.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\bin\Microsoft.AI.Web.xml
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.csprojAssemblyReference.cache
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.csproj.CoreCompileInputs.cache
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.csproj.CopyComplete
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.dll
+C:\Users\ThanhLuan\Desktop\Code - Copy\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.pdb
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\ApplicationInsights.config
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\SmartEDU 2.dll.config
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\SmartEDU 2.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\SmartEDU 2.pdb
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Antlr3.Runtime.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\EntityFramework.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\EntityFramework.SqlServer.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.Web.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Newtonsoft.Json.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\PagedList.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\PagedList.Mvc.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.Helpers.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.Mvc.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.Optimization.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.Razor.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.Razor.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\WebGrease.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\EntityFramework.xml
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\EntityFramework.SqlServer.xml
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\PagedList.xml
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\PagedList.Mvc.xml
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.Helpers.xml
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.Mvc.xml
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.Optimization.xml
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.Razor.xml
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.xml
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.Razor.xml
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Antlr3.Runtime.pdb
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Newtonsoft.Json.xml
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.Web.xml
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.csprojAssemblyReference.cache
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.csproj.CoreCompileInputs.cache
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.csproj.CopyComplete
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.dll
+C:\Users\ThanhLuan\Desktop\SmartEdu\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.pdb
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\ApplicationInsights.config
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\SmartEDU 2.dll.config
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\SmartEDU 2.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\SmartEDU 2.pdb
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Antlr3.Runtime.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\EntityFramework.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\EntityFramework.SqlServer.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.Web.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Newtonsoft.Json.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\PagedList.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\PagedList.Mvc.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.Helpers.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.Mvc.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.Optimization.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.Razor.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.Razor.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\WebGrease.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\EntityFramework.xml
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\EntityFramework.SqlServer.xml
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\PagedList.xml
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\PagedList.Mvc.xml
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.Helpers.xml
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.Mvc.xml
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.Optimization.xml
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.Razor.xml
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.xml
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\System.Web.WebPages.Razor.xml
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Antlr3.Runtime.pdb
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Newtonsoft.Json.xml
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\bin\Microsoft.AI.Web.xml
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.csprojAssemblyReference.cache
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.csproj.CoreCompileInputs.cache
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.csproj.CopyComplete
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.dll
+C:\Users\ThanhLUan\Desktop\Dữ liệu\SmartEdu\Code - Copy\SmartEDU 2\obj\Debug\SmartEDU 2.pdb
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\ApplicationInsights.config
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\SmartEDU 2.dll.config
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\SmartEDU 2.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\SmartEDU 2.pdb
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Antlr3.Runtime.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\EntityFramework.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\EntityFramework.SqlServer.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Microsoft.AI.Web.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Newtonsoft.Json.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\PagedList.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\PagedList.Mvc.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\System.Web.Helpers.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\System.Web.Mvc.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\System.Web.Optimization.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\System.Web.Razor.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\System.Web.WebPages.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\System.Web.WebPages.Razor.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\WebGrease.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\EntityFramework.xml
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\EntityFramework.SqlServer.xml
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\PagedList.xml
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\PagedList.Mvc.xml
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\System.Web.Helpers.xml
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\System.Web.Mvc.xml
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\System.Web.Optimization.xml
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\System.Web.Razor.xml
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\System.Web.WebPages.xml
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\System.Web.WebPages.Razor.xml
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Antlr3.Runtime.pdb
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Newtonsoft.Json.xml
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\bin\Microsoft.AI.Web.xml
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\obj\Debug\SmartEDU 2.csproj.CoreCompileInputs.cache
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\obj\Debug\SmartEDU 2.csproj.CopyComplete
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\obj\Debug\SmartEDU 2.dll
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\obj\Debug\SmartEDU 2.pdb
+C:\Users\My Computer\Desktop\Code cùi bắp\SmartEDU 2\obj\Debug\SmartEDU 2.csprojAssemblyReference.cache

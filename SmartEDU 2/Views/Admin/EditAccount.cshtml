@@ -1,0 +1,61 @@
+﻿@model SmartEDU_2.Models.TAIKHOAN
+
+@{
+    ViewBag.Title = "EditAccount";
+    Layout = "~/Views/Shared/_LayoutAd.cshtml";
+}
+
+<h2>Chỉnh sửa tài khoản</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <hr />
+    <hr />
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(model => model.TENDANGNHAP,"TÊN ĐĂNG NHẬP", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.TENDANGNHAP, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.TENDANGNHAP, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.MATKHAU, "MẬT KHẨU",htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.MATKHAU, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.MATKHAU, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.HOTEN,"HỌ VÀ TÊN", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.HOTEN, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.HOTEN, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SDT,"SỐ ĐIỆN THOẠI",htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SDT, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.SDT, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    @Html.HiddenFor(model => model.ID)
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input class=" btn btn-3d btn-primary" type="submit" value="Save"  />
+            <button class=" btn btn-3d btn-primary"> @Html.ActionLink("TRỞ VỀ", "ListAccount") </button>
+        </div>
+    </div>
+</div>
+}
+

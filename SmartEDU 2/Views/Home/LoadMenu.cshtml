@@ -1,0 +1,83 @@
+﻿@model IEnumerable<SmartEDU_2.Models.THUCDON>
+@{
+    ViewBag.Title = "LoadMenu";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thực đơn</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Menu Table/vendor/bootstrap/css/bootstrap.min.css">
+    <!--=========================================~/Menu Table/======================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Menu Table/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--=========================================~/Menu Table/======================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Menu Table/vendor/animate/animate.css">
+    <!--=========================================~/Menu Table/======================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Menu Table/vendor/select2/select2.min.css">
+    <!--=========================================~/Menu Table/======================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Menu Table/vendor/perfect-scrollbar/perfect-scrollbar.css">
+    <!--=========================================~/Menu Table/======================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Menu Table/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/Menu Table/css/main.css">
+    <!--===============================================================================================-->
+</head>
+<body>
+    <div class="limiter">
+        <div class="container-table100">
+            <div class="wrap-table100">
+                <span style="text-align:center;color:#3972BA;font-family:Tahoma;font-size:14px">
+                    <h3>THỰC ĐƠN TRONG TUẦN</h3>
+                    <br />
+                </span>
+                <div class="table100">
+                    <table>
+                        <thead>
+                            <tr class="table100-head">
+                                <th class="column1">Thứ</th>
+                                <th class="column2">Sáng</th>
+                                <th class="column3">Trưa</th>
+                                <th class="column4">Phụ</th>
+                                <th class="column5">Tráng miệng</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="column1">@item.THU</td>
+                                    <td class="column2">@item.BUOISANG</td>
+                                    <td class="column3">@item.BUOITRUA</td>
+                                    <td class="column4">@item.BUOIPHU</td>
+                                    <td class="column5">@item.TRANGMIENG</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div style="text-align:right;font-style:italic">
+                    <br /><br /><h5> Đã cập nhật: @DateTime.Now.ToShortDateString()</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--===============================================================================================-->
+    <script src="~/Menu Table/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--=========~/Menu Table/======================================================================================-->
+    <script src="~/Menu Table/vendor/bootstrap/js/popper.js"></script>
+    <script src="~/Menu Table/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--=========~/Menu Table/======================================================================================-->
+    <script src="~/Menu Table/vendor/select2/select2.min.js"></script>
+    <!--=========~/Menu Table/======================================================================================-->
+    <script src="~/Menu Table/js/main.js"></script>
+
+</body>
+</html>
+
+

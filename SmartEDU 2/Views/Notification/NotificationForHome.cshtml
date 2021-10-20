@@ -1,0 +1,34 @@
+﻿@model IEnumerable<SmartEDU_2.Models.THONGBAO>
+@{
+    Layout = null;
+}
+@foreach (var item in Model)
+{
+    <div class="second_div col-md-12 item no-padding-lr">
+        <div class="new-item" style="top: 30px;">
+            <div class="col-xs-4 col-sm-3 no-padding-l home-blog-content-left;">
+                <div class="new-img">
+                    <a href="@Url.Action("Detail","Notification",new { id=item.MATHONGBAO})">
+                        <img src="//bizweb.dktcdn.net/thumb/medium/100/238/035/articles/rsz-vtc14.png?v=1504081610130" alt="Lorem Ipsum is simply dummy text of the printing and typesetting.">
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-8 col-sm-9 no-padding-r home-blog-content-right" style="bottom: 30px;">
+                <div class="home-blog-content-right-div">
+                    <h3 class="new-name">
+                        <a href="@Url.Action("Detail","Notification",new { id=item.MATHONGBAO})" title="Lorem Ipsum is simply dummy text of the printing and typesetting.">@item.TIEUDE</a>
+                    </h3>
+                    <p class="new-info">
+                        <span>
+                            <i class="fa fa-calendar"></i> @item.NGAYTHONGBAO
+                        </span>
+                    </p>
+                    <p class="new-description">
+                        @item.MOTA
+                        <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+}

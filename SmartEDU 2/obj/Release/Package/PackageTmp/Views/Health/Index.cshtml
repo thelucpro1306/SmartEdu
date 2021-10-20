@@ -1,0 +1,331 @@
+﻿@model IEnumerable<SmartEDU_2.Models.HOCSINH>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+
+<div class="content" style="padding:0;margin-right: 40px;margin-left: 30px;">
+    @*<div class="col-md-4 col-xs-12">
+        <div class="col-xs-6 top-right-func">
+            <img src="~/TeamplateUser/Logo-Icon/icon-emergency.png" />
+            <div class="top-item-text">
+                <p>Cấp cứu 24/7</p>
+                <span>01636 115 115</span>
+            </div>
+        </div>
+        <div class="col-xs-6 top-right-func">
+            <img src="~/TeamplateUser/Logo-Icon/icon-phone.png" />
+            <div class="top-item-text">
+                <p>Tổng đài CSKH</p>
+                <span>199000</span>
+            </div>
+        </div>
+
+    </div>*@
+    <div class="row">
+        <h3 class="title-post" style="margin:auto;margin-top:20px; margin-left:35%; font-size:x-large; color: #ff0000;"><b>Thông tin cá nhân của bé</b></h3>
+        <hr width="100%" style="color:black; font-size:large" align="center" />
+    </div>
+    <div class="row subpage">
+
+        @foreach (var item in Model)
+        {
+        <div class="col-lg-12">
+            <h5 class="text-left"></h5>
+            <div class="col-lg-4">
+                <div class="thumbnail text-center" style="height: 342px;border:0px;">
+                    <div>
+                        <div class="img" style="height: 263px;">
+                            <a title="@item.HOTEN"> <img src="~/images/@item.AVATAR" style=" height:100% ; width:100%;  "></a>
+                        </div>
+
+                        <h4 class="doctor-ten" style="margin-bottom: 0;margin-top:0px; font-size: 16px; height: 30px;background-color: #1e5da9;padding-top:10px;width:auto;"><a title="@item.HOTEN" href="" style="color:white;">@item.HOTEN </a></h4>
+                        <p class="doctor-chucdanh block-ellipsis-home-news-2line" style="height: 30px; color:#ffffff;background-color: #1e5da9;" title="">Học sinh chăm chỉ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7.5">
+                <table>
+                    <tr>
+                        <th style="background-color: #0060af;width: 122px;height: 35px;"></th>
+                        <td style="background-color: #0060af;width: 400px;height: 30px;text-align:left;color: white;">Thông tin cơ bản</td>
+                        <td style="background-color: #0060af;"></td>
+                    </tr>
+
+                    <tr>
+
+                        <th> <strong style="color: #0060af">Họ tên bé : </strong> </th>
+                        <td style="background-color: white; border: none; border-bottom: 0.5px solid  #f2f5f9"> <div> @item.HOTEN</div></td>
+                    </tr>
+
+                    <tr>
+                        <th> <strong style="color: #0060af">Ngày sinh : </strong> </th>
+                        <td style="background-color: white; border: none;"> <div class="xuongdong"> @item.NGAYSINH</div></td>
+                    </tr>
+
+                </table>
+                <table>
+                    <tr>
+                        <th style="background-color: #0060af;width: 122px;height: 35px;"></th>
+                        <td style="background-color: #0060af;width: 400px;height: 30px;text-align:left;color: white;">Giáo viên chủ nhiệm</td>
+                        <td style="background-color: #0060af;"></td>
+                    </tr>
+                    <tr>
+                        <th> Giáo viên :</th>
+                        <td style="background-color: white;"> <div> Nguyễn Thị Ngọc Thơ</div></td>
+
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th style="text-align: center; background-color: #0060af;color: white;width: 178px;height: 35px;">Ngày kiểm tra </th>
+                        <th style="text-align: center ;background-color: #0060af;color: white;width: 172px;">Cân nặng </th>
+                        <th style="text-align: center ; background-color: #0060af;color: white;width: 172px;">Chiều cao</th>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: center;">12/12/2018</td>
+                        <td style="text-align: center;">12 kg</td>
+                        <td style="text-align: center;">1m</td>
+
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">22/12/2018</td>
+                        <td style="text-align: center;">12.5 kg</td>
+                        <td style="text-align: center;">1m</td>
+
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">22/12/2018</td>
+                        <td style="text-align: center;">13.5 kg</td>
+                        <td style="text-align: center;">1.05m</td>
+
+                    </tr>
+                </table>
+
+
+
+
+            </div>
+
+            <div>
+            <a style= "margin-left : 4%;background-color: #1db913;margin-top: 4%" href="https://www.giadinhnestle.com.vn/tu-van-dinh-duong-cho-be-khoe-me-vui.html" ng-click="viewDetail(item)" class="btn btn-primary">Sức khỏe bé tốt</a>
+            <a style="margin-left :5%; margin-top : 10px ;background-color: #ff0000;margin-top: 4%" href="/QA" ng-click="viewDetail(item)" class="btn btn-primary">Sức khỏe bé chưa tốt</a>
+            </div>
+        </div>
+        }
+    </div>
+
+</div>
+
+<div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 50px;">
+                <div class="page-owl-prev">
+                    <a id="brand-pre" href="#owl-demo-brand">
+                        <i class="fa fa-caret-left"></i>
+                    </a>
+                </div>
+                <div id="owl-demo-brand-parent" class="col-md-10 col-md-offset-1">
+                    <div id="owl-demo-brand-margin">
+                        <div id="owl-demo-brand" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <a href="http://www.sd44.ca/school/lynnvalley/">
+                                    <img alt="#" src="~/TeamplateUser/Logo-Icon/brand1.png" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="http://planet.edu.vn/">
+                                    <img alt="#" src="~/TeamplateUser/Logo-Icon/brand2.png" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="http://www.benhviennhi.org.vn/">
+
+                                    <img alt="#" src="~/TeamplateUser/Logo-Icon/Benh-Vien-Nhi-Dong-2.jpg" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="item">
+
+                                <a href="http://nhidong.org.vn/">
+                                    <img alt="#" src="~/TeamplateUser/Logo-Icon/Logo-Benh-Vien-Nhi-Dong-1.jpg" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="http://planet.edu.vn/">
+                                    <img alt="#" src="~/TeamplateUser/Logo-Icon/bvthuduc.png" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="http://www.stcatherines.net.au">
+                                    <img alt="#" src="~/TeamplateUser/Logo-Icon/brand6.png" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="http://www.sd44.ca/school/lynnvalley/">
+                                    <img alt="#" src="~/TeamplateUser/Logo-Icon/brand1.png" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="http://planet.edu.vn/">
+                                    <img alt="#" src="~/TeamplateUser/Logo-Icon/brand2.png" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="http://www.stcatherines.net.au">
+                                    <img alt="#" src="~/TeamplateUser/Logo-Icon/brand3.png" class="img-responsive" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-owl-next">
+                    <a id="brand-next" href="owl-demo-brand">
+                        <i class="fa fa-caret-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer id="footer" class="footer">
+    <div class="widget">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="col-md-6 col-sm-6 no-padding-l">
+                        <div class="widget-item">
+                            <a class="footer-logo" href="/">
+                                <img alt="Học viện Mầm Non SmartEdu" src="~/TeamplateUser/Logo-Icon/logo_whitef1c3.png">
+                            </a>
+                            <!-- End .widget-title -->
+                            <ul class="widget-menu infomation">
+                                <!-- <li>
+                                    <i class="fa fa-phone"></i>
+                                    <a href="tel:01633.696.484"> 01633.696.484 </a>
+                                </li> -->
+                                <li class="widget-address">
+                                    <i class="fa fa-map-marker"></i>
+                                    <span>475A Điện Biên Phủ, Phường 25, Quận Bình Thạnh, TP.HCM</span>
+                                </li>
+                                <li class="widget-address">
+                                    <i class="fa fa-internet-explorer"></i>
+                                    <span>www.smartedu.somee.com</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope"></i>
+                                    <a href="mailto:mail.smartedu@gmail.com"> mail.smartedu@gmail.com</a>
+                                </li>
+                                <li class="social_icon">
+                                    <ul>
+                                        <li>
+                                            <a target="_blank" title="Facebook" href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" title="Linkedin" href="#">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" title="vk" href="#">
+                                                <i class="fa fa-vk"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" title="Youtube" href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!-- End .widget-menu -->
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 no-padding-l">
+                        <div class="widget-item">
+                            <h4 class="widget-title">Tin nhà trường</h4>
+                            <!-- End .widget-title -->
+                            @Html.Action("NotificationForHomeFooter", "Notification")
+                            <!-- End .widget-menu -->
+                        </div>
+                        <!-- End .widget-item -->
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7838.144862588686!2d106.71030667251328!3d10.805764519206361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3830dea3e120ec8e!2sHUTECH+University+of+Technology!5e0!3m2!1sen!2s!4v1521737729347" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hidden-md hidden-lg">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="plane_fly">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hidden-xs hidden-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="plane_fly_lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 copyright-pr no-padding-r">
+                    <div class="pull-left copyright">
+                        <span>
+                            © Bản quyền thuộc về
+                            <b>Thành Luân Solution</b>
+                        </span>
+                    </div>
+                </div>
+                <div class="hidden-xs col-sm-12 col-md-6 no-padding-l">
+                    <div class="pull-right">
+                        <ul class="bottom_linklist"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<marquee style="z-index: 1; left: 777px; width: 00px; position: absolute; top: -14px; height: 1000px;" scrollamount="5"
+        </div>
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!-- Your customer chat code -->
+        <div class="fb-customerchat"
+             attribution=setup_tool
+             page_id="729666384059010"
+             theme_color="#e68585"
+             logged_in_greeting="Bạn có cần mình giúp gì không ?"
+             logged_out_greeting="Bạn có cần mình giúp gì không ?">
+        </div>
+    </div>
+
+
+ 
+
+
+

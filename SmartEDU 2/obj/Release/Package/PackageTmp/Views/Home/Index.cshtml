@@ -1,0 +1,598 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+<div id="site-content">
+    <div id="main">
+        <h1 style="display:none;">Học viện Mầm Non SmartEdu</h1>
+        <div class="home_slide_banner">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-xs-12 pull-left col-md-9">
+                        <div class="home-slide">
+
+                            <div id="owl-demo-slide" class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <a href="@Url.Action("Index","Course")" title="Slide">
+                                        <img src="~/TeamplateUser/Logo-Icon/Logo.png" alt="Slide">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End. Home-slide-->
+                    </div>
+                    <div class="time_work col-xs-12 pull-right col-md-3">
+                        <div class="col-md-12 col-sm-7 col-xs-12 no-padding-lr">
+                            <h2 style="color:#ff0000" class="time_work_title">Thời gian làm việc :</h2>
+                            <div class="time_work_content col-xs-6 col-sm-6 col-md-12 no-padding-lr">
+                                <div class="policy-item">
+                                    <span class="policy-icon">
+                                        <img src="~/TeamplateUser/Logo-Icon/alarmf1c3.png" alt="Monday - Sunday">
+                                    </span>
+                                    <span class="policy-text">
+                                        <h5>
+                                            <b>
+                                                <i>Thứ Hai - Thứ 7</i>
+                                            </b>
+                                        </h5>
+                                        <p style="color:#feba35">7:00 AM - 5:00 PM</p>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="time_work_content">
+                                <div class="policy-item col-xs-6 col-sm-6 col-md-12 no-padding-lr">
+                                    <span class="policy-icon">
+                                        <img src="~/TeamplateUser/Logo-Icon/call_usf1c3.png" alt="Đăng ký nhập học:">
+                                    </span>
+                                    <span class="policy-text">
+                                        <b>
+                                            <i>Đăng ký nhập học</i>
+                                        </b>
+                                        <p style="color:#feba35">0971865994</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="stydy_hard">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="default_title text-center">Học mà chơi, chơi mà học</h2>
+                        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 no-padding-lr">
+                            <p class="text-center">Chúng tôi mang đến trương trình giáo dục tiên tiến nhất, được cập nhật thường xuyên nhằm phát triển kỹ năng toàn diện cho trẻ.</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-12 col-md-offset-0 std_icon text-center">
+                            <div class="col-sm-6 col-xs-6 col-md-3 std_ic_ct_pr no-padding-lr">
+                                <div class="std_ic_content">
+                                    <div class="std_1">
+                                        <a href="@Url.Action("Index","Menu")">
+                                            <img src="~/TeamplateUser/Logo-Icon/thucdonchobe.png" alt="Thực đơn cho bé">
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="@Url.Action("Index","Menu")" class="std_ic_title">
+                                    Thực đơn cho bé
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-xs-6 col-md-3 std_ic_ct_pr no-padding-lr">
+                                <div class="std_ic_content">
+                                    <div class="std_2">
+                                        <a href="@Url.Action("Index","Course")">
+                                            <img src="~/TeamplateUser/Logo-Icon/chuongtrinhhoc.png" alt="Chương trình học">
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="@Url.Action("Index","Course")" class="std_ic_title">
+                                    Chương trình học
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-xs-6 col-md-3 std_ic_ct_pr no-padding-lr">
+                                <div class="std_ic_content">
+                                    <div class="std_3">
+                                        <a href="@Url.Action("Index","Course")">
+                                            <img src="~/TeamplateUser/Logo-Icon/ngoaikhoa.png" alt="Hoạt động ngoại khóa">&gt;
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="@Url.Action("Index","Course")" class="std_ic_title">
+                                    Hoạt động ngoại khóa
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-xs-6 col-md-3 std_ic_ct_pr no-padding-lr">
+                                <div class="std_ic_content">
+                                    <div class="std_4">
+                                        <a href="@Url.Action("Index","Course")">
+                                            <img src="~/TeamplateUser/Logo-Icon/giatrichobe.png" alt="Giá trị cho bé">
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="@Url.Action("Index","Course")" class="std_ic_title">
+                                    Giá trị cho bé
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="home_about">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-xs-12 col-sm-12 col-md-6">
+                            <h2 class="default_title">
+                                <a href="#">Giới thiệu</a>
+                            </h2>
+                            <p>
+                                Sứ mệnh của trường Smart Edu là cung cấp một chương trình giáo dục chất lượng cao từ cấp mầm non, tiểu học đến trung
+                                học phổ thông dựa trên những triết lý và thực tiễn giáo dục của Canada nhằm đáp ứng sự mong đợi của quý vị phụ
+                                huynh đến từ nhiều quốc gia nhưng vẫn phù hợp với quy định giáo dục ở từng địa phương.
+                            </p>
+                            <button href="@Url.Action("Index","Notification")" class="theme_default_btn btn_cl_newtab">
+                                Khám phá
+                            </button>
+                            <div class="row hidden-xs hidden-sm">
+                                <div class="small_about_thumbnail">
+                                    <div class="col-md-4">
+                                        <div class="ov">
+                                            <img src="~/TeamplateUser/Logo-Icon/gioithieu1.jpg" alt="banner">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="ov">
+                                            <img src="~/TeamplateUser/Logo-Icon/gioithieu2.jpg" alt="banner">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="ov">
+                                            <img src="~/TeamplateUser/Logo-Icon/gioithieu4.jpg" alt="Banner">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="home_about_big_banner col-xs-12 col-sm-12 col-md-6">
+                            <a href="#" title="Banner" style="margin-top: 90px;">
+                                <img src="~/TeamplateUser/Logo-Icon/gioithieu3.jpg" alt="Banner" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="home-blogs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h2 class="default_title">
+                                @Html.ActionLink("Tin tức Học Viện Mầm Non SmartEDU", "Index", "Notification");
+                            </h2>
+                            @*PartialView*@
+                            @Html.Action("NotificationForHome", "Notification")
+                        </div>
+                        <div class="col-md-5 people_say_div">
+                            <h2 class="default_title">Ý kiến phụ huynh</h2>
+                            <a id="people-say-pre" href="owl-demo-people-say.html">
+                                <i class="fa fa-caret-left"></i>
+                            </a>
+                            <a id="people-say-next" href="owl-demo-people-say.html">
+                                <i class="fa fa-caret-right"></i>
+                            </a>
+                            <div class="people_say">
+                                <div id="owl-demo-people-say" class="owl-carousel owl-theme">
+                                    <div class="item">
+                                        <div class="new-item">
+                                            <div class="no-padding-lr">
+                                                <div class="people-say-content">
+                                                    <div class="people-img">
+                                                        <img src="~/TeamplateUser/AvartarUser/people-avatar-1f1c3.png" alt="Nguyễn Bình An">
+                                                    </div>
+                                                    <div class="people-right">
+                                                        <p>
+                                                            <b class="people-name">Nguyễn Bình An</b>
+                                                        </p>
+                                                        <p class="people-info">Giáo viên</p>
+                                                        <p class="time_pps">
+                                                            <span class="first_time">
+                                                                <i class="fa fa-calendar"></i> 4/2/2016
+                                                            </span>
+                                                            <span class="hidden-xs">
+                                                                <i class="fa fa-clock-o"></i> 12:06 am
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                    <p class="people-description">
+                                                        <img alt="Nguyễn Bình An" src="~/TeamplateUser/Logo-Icon/quote_1-minf1c3.png" style="padding-right:15px;">Con gái tôi trước đây ghét học tiếng anh lắm. Từ ngày tôi bốc thăm được học bổng toàn phần từ Smart Edu,
+                                                        tôi đã đăng ký cho bé đi học. Bé học rất tự giác, vui vẻ. Lúc nào cũng mong từng ngày để đến lịch học. Mong
+                                                        rằng trung tâm có thêm các học bổng như thế nữa, và thông báo rộng rãi hơn để nhiều người được biết
+                                                        <img alt="Nguyễn Bình An" src="~/TeamplateUser/Logo-Icon/quote_2-minf1c3.png" style="padding-left:15px;">
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="new-item">
+                                            <div class="no-padding-lr">
+                                                <div class="people-say-content">
+                                                    <div class="people-img">
+                                                        <img src="~/TeamplateUser/AvartarUser/people-avatar-2f1c3.png" alt="Nguyễn Bình Minh">
+                                                    </div>
+                                                    <div class="people-right">
+                                                        <p>
+                                                            <b class="people-name">Nguyễn Bình Minh</b>
+                                                        </p>
+                                                        <p class="people-info">Kỹ sư</p>
+                                                        <p class="time_pps">
+                                                            <span class="first_time">
+                                                                <i class="fa fa-calendar"></i> 4/2/2016
+                                                            </span>
+                                                            <span class="hidden-xs">
+                                                                <i class="fa fa-clock-o"></i> 12:06 am
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                    <p class="people-description">
+                                                        <img alt="Nguyễn Bình Minh" src="~/TeamplateUser/Logo-Icon/quote_1-minf1c3.png" style="padding-right:15px;">Bé nhà tôi nói con thích học tại Smart Edu lắm. Nó hay nghêu ngao hát các bài hát bằng tiếng anh mà cô giáo
+                                                        dạy. Về nhà còn dạy lại cho cả em trai nữa. Hướng dẫn ba mẹ chơi các trò chơi trên lớp. Khiến cả nhà rất
+                                                        vui và yên tâm.
+                                                        <img alt="Nguyễn Bình Minh" src="~/TeamplateUser/Logo-Icon/quote_2-minf1c3.png" style="padding-left:15px;">
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="new-item">
+                                            <div class="no-padding-lr">
+                                                <div class="people-say-content">
+                                                    <div class="people-img">
+                                                        <img src="~/TeamplateUser/AvartarUser/people-avatar-3f1c3.png" alt="Tạ Hoài Nam">
+                                                    </div>
+                                                    <div class="people-right">
+                                                        <p>
+                                                            <b class="people-name">Tạ Hoài Nam</b>
+                                                        </p>
+                                                        <p class="people-info">Kỹ sư</p>
+                                                        <p class="time_pps">
+                                                            <span class="first_time">
+                                                                <i class="fa fa-calendar"></i> 4/2/2016
+                                                            </span>
+                                                            <span class="hidden-xs">
+                                                                <i class="fa fa-clock-o"></i> 12:06 am
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                    <p class="people-description">
+                                                        <img alt="Tạ Hoài Nam" src="~/TeamplateUser/Logo-Icon/quote_1-minf1c3.png" style="padding-right:15px;">Mình lựa chọn Smart Edu vì ở gần. Nhưng thật may mắn là bé lại thích môi trường ở đây hơn ở trung tâm trước
+                                                        kia.
+                                                        <img alt="Tạ Hoài Nam" src="~/TeamplateUser/Logo-Icon/quote_2-minf1c3.png" style="padding-left:15px;">
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="new-item">
+                                            <div class="no-padding-lr">
+                                                <div class="people-say-content">
+                                                    <div class="people-img">
+                                                        <img src="~/TeamplateUser/AvartarUser/people-avatar-4f1c3.png" alt="Mai Lan">
+                                                    </div>
+                                                    <div class="people-right">
+                                                        <p>
+                                                            <b class="people-name">Mai Lan</b>
+                                                        </p>
+                                                        <p class="people-info">Người mẫu</p>
+                                                        <p class="time_pps">
+                                                            <span class="first_time">
+                                                                <i class="fa fa-calendar"></i> 4/2/2016
+                                                            </span>
+                                                            <span class="hidden-xs">
+                                                                <i class="fa fa-clock-o"></i> 12:06 am
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                    <p class="people-description">
+                                                        <img alt="Mai Lan" src="~/TeamplateUser/Logo-Icon/quote_1-minf1c3.png" style="padding-right:15px;">Bé nhà mình từ khi đi học tại Smart Edu thì về nhà hay đòi mình kể truyện tiếng anh cho mới chịu đi ngủ.
+                                                        Bé thích học, thích nói chuyện, bằng tiếng anh hơn. Thỉnh thoảng mẹ nói sai, bé lại “dạy” lại mẹ.
+                                                        <img alt="Mai Lan" src="~/TeamplateUser/Logo-Icon/quote_2-minf1c3.png" style="padding-left:15px;">
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="home_csvc">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="default_title text-center">Cơ sở vật chất</h2>
+                        <div class="description_pr col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2  col-md-6 col-md-offset-3 no-padding-lr">
+                            <p class="description text-center">Mang đến những không gian học tập, vui chơi thoải mái, thoáng mát, vô cùng hiện đại giúp trẻ phát triển toàn diện.</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 home_csvc_items no-padding-lr">
+                            <div class="col-xs-12 col-sm-12 col-md-12 h_csvc_item_pr_left no-padding-lr">
+                                <div class="col-xs-12 col-sm-6 col-md-3 h_csvc_item_pr">
+                                    <div class="home_csvc_item md md_1">
+                                        <div class="csvc_img">
+                                        </div>
+                                        <h3 class="default_title text-center">Phòng lễ tân</h3>
+                                        <div class="no-padding-lr">
+                                            <p class="description text-center">Lịch sự và sang trọng</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 h_csvc_item_pr">
+                                    <div class="home_csvc_item md md_2">
+                                        <div class="csvc_img">
+                                        </div>
+                                        <h3 class="default_title text-center">Khu vui chơi</h3>
+                                        <div class="no-padding-lr">
+                                            <p class="description text-center">Thỏa sức cho các bé vui chơi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 h_csvc_item_pr">
+                                    <div class="home_csvc_item md md_3">
+                                        <div class="csvc_img">
+                                        </div>
+                                        <h3 class="default_title text-center">Phòng học</h3>
+                                        <div class="no-padding-lr">
+                                            <p class="description text-center">Đầy đủ dụng cụ học tập</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 h_csvc_item_pr">
+                                    <div class="home_csvc_item md md_4">
+                                        <div class="csvc_img">
+                                        </div>
+                                        <h3 class="default_title text-center">Phòng học</h3>
+                                        <div class="no-padding-lr">
+                                            <p class="description text-center">Trang thiết bị hiện đại</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <style>
+
+                    .home_csvc_item.md.md_1 .csvc_img {
+                        background: url("/TeamplateUser/Logo-Icon/phongan.jpg");
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+
+                    .home_csvc_item.md.md_2 .csvc_img {
+                        background: url("/TeamplateUser/Logo-Icon/khuvuichoi.jpg");
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+
+                    .home_csvc_item.md.md_3 .csvc_img {
+                        background: url("/TeamplateUser/Logo-Icon/phonghoc.jpg");
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+
+                    .home_csvc_item.md.md_4 .csvc_img {
+                        background: url("/TeamplateUser/Logo-Icon/khuvuichoi4.jpg");
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                </style>
+            </section>
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 50px;">
+                            <div class="page-owl-prev">
+                                <a id="brand-pre" href="#owl-demo-brand">
+                                    <i class="fa fa-caret-left"></i>
+                                </a>
+                            </div>
+                            <div id="owl-demo-brand-parent" class="col-md-10 col-md-offset-1">
+                                <div id="owl-demo-brand-margin">
+                                    <div id="owl-demo-brand" class="owl-carousel owl-theme">
+                                        <div class="item">
+                                            <a href="http://www.sd44.ca/school/lynnvalley/">
+                                                <img alt="#" src="~/TeamplateUser/Logo-Icon/brand1.png" class="img-responsive" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="http://planet.edu.vn/">
+                                                <img alt="#" src="~/TeamplateUser/Logo-Icon/brand2.png" class="img-responsive" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="http://www.stcatherines.net.au">
+                                                <img alt="#" src="~/TeamplateUser/Logo-Icon/brand3.png" class="img-responsive" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="http://www.ahavalearning.org/">
+                                                <img alt="#" src="~/TeamplateUser/Logo-Icon/brand4.png" class="img-responsive" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="http://planet.edu.vn/">
+                                                <img alt="#" src="~/TeamplateUser/Logo-Icon/brand5.png" class="img-responsive" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="http://www.stcatherines.net.au">
+                                                <img alt="#" src="~/TeamplateUser/Logo-Icon/brand6.png" class="img-responsive" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="http://www.sd44.ca/school/lynnvalley/">
+                                                <img alt="#" src="~/TeamplateUser/Logo-Icon/brand1.png" class="img-responsive" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="http://planet.edu.vn/">
+                                                <img alt="#" src="~/TeamplateUser/Logo-Icon/brand2.png" class="img-responsive" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="http://www.stcatherines.net.au">
+                                                <img alt="#" src="~/TeamplateUser/Logo-Icon/brand3.png" class="img-responsive" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="page-owl-next">
+                                <a id="brand-next" href="owl-demo-brand">
+                                    <i class="fa fa-caret-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer id="footer" class="footer">
+                <div class="widget">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-6">
+                                <div class="col-md-6 col-sm-6 no-padding-l">
+                                    <div class="widget-item">
+                                        <a class="footer-logo" href="/">
+                                            <img alt="Học viện Mầm Non SmartEdu" src="~/TeamplateUser/Logo-Icon/logo_whitef1c3.png">
+                                        </a>
+                                        <!-- End .widget-title -->
+                                        <ul class="widget-menu infomation">
+                                            <!-- <li>
+                                            <i class="fa fa-phone"></i>
+                                            <a href="tel:01633.696.484"> 01633.696.484 </a>
+                                        </li> -->
+                                            <li class="widget-address">
+                                                <i class="fa fa-map-marker"></i>
+                                                <span>475A Điện Biên Phủ, Phường 25, Quận Bình Thạnh, TP.HCM</span>
+                                            </li>
+                                            <li class="widget-address">
+                                                <i class="fa fa-internet-explorer"></i>
+                                                <span>www.smartedu.somee.com</span>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-envelope"></i>
+                                                <a href="mailto:mail.smartedu@gmail.com"> mail.smartedu@gmail.com</a>
+                                            </li>
+                                            <li class="social_icon">
+                                                <ul>
+                                                    <li>
+                                                        <a target="_blank" title="Facebook" href="#">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a target="_blank" title="Linkedin" href="#">
+                                                            <i class="fa fa-linkedin"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a target="_blank" title="vk" href="#">
+                                                            <i class="fa fa-vk"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a target="_blank" title="Youtube" href="#">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <!-- End .widget-menu -->
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 no-padding-l">
+                                    <div class="widget-item">
+                                        <h4 class="widget-title">Tin nhà trường</h4>
+                                        <!-- End .widget-title -->
+                                        @Html.Action("NotificationForHomeFooter", "Notification")
+                                        <!-- End .widget-menu -->
+                                    </div>
+                                    <!-- End .widget-item -->
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7838.144862588686!2d106.71030667251328!3d10.805764519206361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3830dea3e120ec8e!2sHUTECH+University+of+Technology!5e0!3m2!1sen!2s!4v1521737729347" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden-md hidden-lg">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="plane_fly">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden-xs hidden-sm">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="plane_fly_lg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-6 copyright-pr no-padding-r">
+                                <div class="pull-left copyright">
+                                    <span>
+                                        © Bản quyền thuộc về
+                                        <b>Thành Luân Solution</b>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="hidden-xs col-sm-12 col-md-6 no-padding-l">
+                                <div class="pull-right">
+                                    <ul class="bottom_linklist"></ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+
+        </div>
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <script>
+            window.fbAsyncInit = function () {
+                FB.init({
+                    xfbml: true,
+                    version: 'v3.2'
+                });
+            };
+
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!-- Your customer chat code -->
+        <div class="fb-customerchat"
+             attribution=setup_tool
+             page_id="729666384059010"
+             theme_color="#e68585"
+             logged_in_greeting="Bạn có cần mình giúp gì không ạ ?"
+             logged_out_greeting="Bạn có cần mình giúp gì không ạ ?">
+        </div>
+    </div>
+ </div>

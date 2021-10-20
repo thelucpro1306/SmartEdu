@@ -1,0 +1,13 @@
+﻿@model IEnumerable<SmartEDU_2.Models.THONGBAO>
+@{
+    Layout = null;
+}
+
+@foreach (var item in Model)
+{
+    <ul class="widget-menu">
+        <li>
+            <a href="@Url.Action("Detail","Notification",new { id=item.MATHONGBAO})" class="has_icon">@item.TIEUDE</a>
+        </li>
+    </ul>
+}

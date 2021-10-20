@@ -1,0 +1,331 @@
+﻿@model IEnumerable<SmartEDU_2.Models.KHOAHOC>
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<div class="header-breadcrumb" style="margin-bottom: 0px;">
+    <div class="container">
+        <div class="row ">
+            <div class="col-xs-12">
+                <ol class="breadcrumb" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <li class="home">
+                        <a itemprop="url" href="/"><span itemprop="title">Trang chủ</span></a>
+                        <span><i class="fa fa-angle-right"></i></span>
+                    </li>
+
+                    <li>Chi tiết khóa học</li>
+
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+@foreach (var item in Model)
+{
+    <section class="product" itemscope="" itemtype="http://schema.org/Product">
+        <meta itemprop="url" content="//cleverclogs.edu.vn/communications-intermediare-lever2-com-inter">
+        <meta itemprop="image" content="//bizweb.dktcdn.net/thumb/grande/100/238/035/products/luyen-thi-toeic-2.jpg?v=1506586083987">
+        <meta itemprop="shop-currency" content="VND">
+        <div class="container" style="margin-top:5%">
+            <div>
+                <div>
+                    <div class="row">
+                        <form enctype="multipart/form-data" id="add-to-cart-form" action="/cart/add" method="post" class="form-inline">
+                            <div class="col-xs-12 col-sm-12 col-lg-6 details-product">
+                                <div class="owl-carousel owl-theme product-images large-image" style="opacity: 1; display: block;">
+
+                                    <div class="owl-wrapper-outer autoHeight" style="height: 382px;">
+                                        <div class="owl-wrapper" style="width: 1180px; left: 0px; display: block; transition: all 0ms ease; transform: translate3d(0px, 0px, 0px);">
+                                            <div class="owl-item" style="width: 590px;">
+                                                <div class="item">
+                                                    <a href="#" data-image="~/images/@item.ANHBIA" data-zoom-image="~/Content/@item.ANHBIA">
+                                                        <img src="~/images/@item.ANHBIA" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-controls clickable" style="display: none;"><div class="owl-buttons"><div class="owl-prev">prev</div><div class="owl-next">next</div></div></div>
+                                </div>
+                                <div class="owl-carousel owl-theme thumbnail-product" style="opacity: 1; display: block;">
+                                    <div class="owl-wrapper-outer">
+                                        <div class="owl-wrapper" style="width: 374px; left: 0px; display: block; transition: all 0ms ease; transform: translate3d(0px, 0px, 0px);">
+                                            <div class="owl-item synced" style="width: 187px;">
+                                                <div class="item">
+                                                    <img src="~/images/@item.ANHBIA" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-shop col-xs-12 col-sm-12 col-lg-6 details-product">
+                                <i>Tên khóa học:</i>
+                                <h1 class="product-name" itemprop="name">@item.TENKHOAHOC</h1>
+                                <div class="bizweb-product-reviews-badge" data-id="8457793"></div>
+                                <div class="price-box">
+                                    <i>Học phí:</i><div class="special-price"><span class="price product-price" style="margin-top: 10px;">@item.HOCPHI</span> </div>
+                                </div>
+                                <div class="form-product">
+                                    <div class="box-variant clearfix">
+                                        <input type="hidden" name="variantId" value="13407535">
+                                    </div>
+                                    <div class="btn-form-product pull-sm-left form-group2  display-flex align-items-center">
+                                        <div align="center" style="margin-top:5%;">
+                                            <a href="@Url.Action("ApplyToACourse","Course",new {id=item.MAKHOAHOC})" class="btn btn-style flex-grow-1" style="width:100%;font-family:bali;font-size:30px">Đăng Ký Ngay</a>
+                                        </div>
+                                    </div>
+                                    <div class="display-flex align-items-center" style="color: #777777; margin-top: 30px;">
+                                        <div><img src="//bizweb.dktcdn.net/100/238/035/themes/568018/assets/icon-phone.png?1503560945961" style="margin-right: 15px;" alt="icon-phone"></div>
+                                        <div>
+                                            <span>Đăng ký / Tư vấn qua điện thoại ( 8h - 17h )</span><br>
+                                            <span class="sdt-phone"><a href="tel:02.466.626.648 - 02.466.626.649 " title="Liên hệ">08.123.456.789 - 08.987.654.321 </a></span>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="social-media text-xs-left">
+                                        <div class="pull-xs-left" id="shareButtonLabelCount"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="col-xs-12">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs product-tabs-title nav-tab-detailspro" role="tablist">
+                                <li class="nav-item nav-itemx li1 active">
+                                    <a class="nav-link nav-linkx" data-toggle="tab" href="#pd-thongtin" role="tab">THÔNG TIN KHÓA HỌC</a>
+                                </li>
+
+                            </ul>
+                            <div class="tab-content product-tabs-content tab-content-detailspro">
+                                <div class="tab-pane fade in active rte" role="tabpanel" id="pd-thongtin">
+                                    <p><span style="font-size:16px;"><u><strong>Đối tượng :</strong></u></span><span style="font-size:14px;"><u><strong> </strong></u>Trẻ em</span></p>
+                                    <p><span style="font-size:16px;"><strong><u>Trình độ đầu vào :</u></strong></span><span style="font-size:14px;"> Beginer</span></p>
+                                    <p><span style="font-size:16px;"><strong><u>Phương pháp :</u></strong></span><span style="font-size:14px;"> Được thiết kế dành cho trẻ em giao tiếp ở mức độ dễ, có trình độ giao tiếp vỡ lòng và đáp ứng nhu cầu dạy trẻ nói tiếng Anh từ nhỏ.</span></p>
+                                    <p><span style="font-size:16px;"><strong><u>Mục đích :</u></strong></span> <span style="font-size:14px;">Phát triển 4 kỹ năng Nghe - Nói - Đọc - Viết.</span></p>
+                                    <p><span style="font-size:16px;"><strong><u>Khóa học và thời gian học :</u></strong></span></p>
+                                    <p><span style="font-size:14px;">+ Thời lượng : 20 buổi (40H)</span></p>
+                                    <p><span style="font-size:14px;">+ Số bài kiểm tra : 2 bài&nbsp;</span></p>
+                                    <p><span style="font-size:14px;">+ Số học viên : 12-15 học viên</span></p>
+                                    <p><span style="font-size:16px;"><strong><u>Học phí : </u></strong></span><span style="font-size:14px;">@item.HOCPHI đồng</span></p>
+                                    <p><span style="font-size:14px;"><img data-thumb="original" original-height="460" original-width="710" src="~/Content/@item.ANHBIA"></span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4 col-lg-3 right-details">
+                    <div class="row">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+}
+
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 50px;">
+                <div class="page-owl-prev">
+                    <a id="brand-pre" href="#owl-demo-brand">
+                        <i class="fa fa-caret-left"></i>
+                    </a>
+                </div>
+                <div id="owl-demo-brand-parent" class="col-md-10 col-md-offset-1">
+                    <div id="owl-demo-brand-margin">
+                        <div id="owl-demo-brand" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <a href="https://www.hutech.edu.vn/">
+                                    <img alt="#" src="~/TeamplateUser/Logo-Icon/brand1.png" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="http://www.fis.com.vn/">
+                                    <img alt="#" src="~/TeamplateUser/Logo-Icon/brand2.png" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="http://www.stcatherines.net.au">
+                                    <img alt="#" src="~/TeamplateUser/Logo-Icon/brand3.png" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="http://www.ahavalearning.org/">
+                                    <img alt="#" src="~/TeamplateUser/Logo-Icon/brand4.png" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="http://planet.edu.vn/">
+                                    <img alt="#" src="~/TeamplateUser/Logo-Icon/brand5.png" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="http://www.stcatherines.net.au">
+                                    <img alt="#" src="~/TeamplateUser/Logo-Icon/brand6.png" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="http://www.sd44.ca/school/lynnvalley/">
+                                    <img alt="#" src="~/TeamplateUser/Logo-Icon/brand1.png" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="http://planet.edu.vn/">
+                                    <img alt="#" src="~/TeamplateUser/Logo-Icon/brand2.png" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="http://www.stcatherines.net.au">
+                                    <img alt="#" src="~/TeamplateUser/Logo-Icon/brand3.png" class="img-responsive" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-owl-next">
+                    <a id="brand-next" href="owl-demo-brand">
+                        <i class="fa fa-caret-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer id="footer" class="footer">
+    <div class="widget">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="col-md-6 col-sm-6 no-padding-l">
+                        <div class="widget-item">
+                            <a class="footer-logo" href="/">
+                                <img alt="Học viện Mầm Non SmartEdu" src="~/TeamplateUser/Logo-Icon/logo_whitef1c3.png">
+                            </a>
+                            <!-- End .widget-title -->
+                            <ul class="widget-menu infomation">
+                                <!-- <li>
+                                    <i class="fa fa-phone"></i>
+                                    <a href="tel:01633.696.484"> 01633.696.484 </a>
+                                </li> -->
+                                <li class="widget-address">
+                                    <i class="fa fa-map-marker"></i>
+                                    <span>475A Điện Biên Phủ, Phường 25, Quận Bình Thạnh, TP.HCM</span>
+                                </li>
+                                <li class="widget-address">
+                                    <i class="fa fa-internet-explorer"></i>
+                                    <span>www.smartedu.somee.com</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope"></i>
+                                    <a href="mailto:mail.smartedu@gmail.com"> mail.smartedu@gmail.com</a>
+                                </li>
+                                <li class="social_icon">
+                                    <ul>
+                                        <li>
+                                            <a target="_blank" title="Facebook" href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" title="Linkedin" href="#">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" title="vk" href="#">
+                                                <i class="fa fa-vk"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" title="Youtube" href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!-- End .widget-menu -->
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 no-padding-l">
+                        <div class="widget-item">
+                            <h4 class="widget-title">Tin nhà trường</h4>
+                            <!-- End .widget-title -->
+                            @Html.Action("NotificationForHomeFooter", "Notification")
+                            <!-- End .widget-menu -->
+                        </div>
+                        <!-- End .widget-item -->
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7838.144862588686!2d106.71030667251328!3d10.805764519206361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3830dea3e120ec8e!2sHUTECH+University+of+Technology!5e0!3m2!1sen!2s!4v1521737729347" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hidden-md hidden-lg">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="plane_fly">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hidden-xs hidden-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="plane_fly_lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 copyright-pr no-padding-r">
+                    <div class="pull-left copyright">
+                        <span>
+                            © Bản quyền thuộc về
+                            <b>Thành Luân Solution</b>
+                        </span>
+                    </div>
+                </div>
+                <div class="hidden-xs col-sm-12 col-md-6 no-padding-l">
+                    <div class="pull-right">
+                        <ul class="bottom_linklist"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!-- Your customer chat code -->
+        <div class="fb-customerchat"
+             attribution=setup_tool
+             page_id="729666384059010"
+             theme_color="#e68585"
+             logged_in_greeting="Bạn có cần mình giúp gì không ?"
+             logged_out_greeting="Bạn có cần mình giúp gì không ?">
+        </div>
+    </div>

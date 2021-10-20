@@ -1,0 +1,79 @@
+﻿@model SmartEDU_2.Models.TAIKHOAN
+
+@{
+    ViewBag.Title = " Xóa tài khoản";
+    Layout = "~/Views/Shared/_LayoutAd.cshtml";
+}
+
+<style>
+    table#t1, td {
+        border: 1px solid #f2f5f9;
+        border-collapse: collapse;
+        padding: 15px;
+    }
+
+
+    table#t1, th {
+        background-color: #4980c2;
+        padding: 15px;
+        color: aliceblue;
+    }
+
+    table#t1, td {
+        color: black;
+        background-color: paleturquoise;
+    }
+
+        table#t1 tr:nth-child(even) {
+            background-color: #fff;
+        }
+
+        table#t1 tr:nth-child(odd) {
+            background-color: #e3e4e5;
+        }
+
+    .t2 th {
+        background-color: white;
+        border-bottom: 0.5px solid #f2f5f9;
+    }
+</style>
+<br />
+
+<h2 style="color: brown ; font-size:20px; text-align:center ; padding-bottom:30px;">XÓA KHÓA HỌC</h2>
+
+
+<tr>
+
+
+    <td>
+
+        <table  style="width: 80%" align="center">
+
+            <tr>
+                <th style="text-align: center"> Họ tên phụ Huynh</th>
+                <th style="text-align: center">Tên đăng nhập</th>
+                <th style="text-align: center">Mật Khẩu</th>
+            </tr>
+            <tr>
+                <td>@Html.DisplayFor(model => model.HOTEN)</td>              
+                <td>@Html.DisplayFor(model => model.TENDANGNHAP)</td>
+                <td>@Html.DisplayFor(model => model.MATKHAU)</td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+
+<br />
+<br />
+
+@using (Html.BeginForm("DelAccount","Admin"))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color"  align="center" >
+        <input type="submit" value ="Xóa" class="btn btn-danger" /> |
+        <button class="btn btn-black"> @Html.ActionLink("Trở về", "ListAccount", "Admin")</button>
+    </div>
+}
+

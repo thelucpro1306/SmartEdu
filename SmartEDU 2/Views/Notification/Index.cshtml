@@ -1,0 +1,198 @@
+﻿@using SmartEDU_2.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<THONGBAO>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<div class="header-breadcrumb">
+    <div class="container">
+        <div class="row ">
+            <div class="col-xs-12">
+                <ol class="breadcrumb" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <li class="home">
+                        <a itemprop="url" href="/"><span itemprop="title">Trang chủ</span></a>
+                        <span><i class="fa fa-angle-right"></i></span>
+                    </li>
+
+                    <li>Thông báo  </li>
+
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="home-blogs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7" style="width:100%">
+                <h2 class="default_title">
+                    <a href="@Url.Action("Index","Notification")">Tin tức Quản Lý Mẫu Giáo</a>
+                </h2>
+                @foreach (var item in Model)
+                {
+                    <div class="second_div col-md-12 item no-padding-lr">
+                        <div class="new-item" style="top: 30px;">
+                            <div class="col-xs-4 col-sm-3 no-padding-l home-blog-content-left;">
+                                <div class="new-img">
+                                    <a href="@Url.Action("Detail","Notification",new { id=item.MATHONGBAO})">
+                                        <img src="~/TeamplateUser/Anh-trong-web/AnhThongBao.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-8 col-sm-9 no-padding-r home-blog-content-right" style="bottom: 30px;">
+                                <div class="home-blog-content-right-div">
+                                    <h3 class="new-name">
+                                        <a href="@Url.Action("Detail","Notification",new { id=item.MATHONGBAO})" title="Lorem Ipsum is simply dummy text of the printing and typesetting.">@item.TIEUDE</a>
+                                    </h3>
+                                    <p class="new-info">
+                                        <span>
+                                            <i class="fa fa-calendar"></i> @item.NGAYTHONGBAO
+                                        </span>
+                                    </p>
+                                    <p class="new-description">
+                                        @item.MOTA
+                                        <br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+    </div>
+</section>
+
+<div>
+    <p>
+        
+    </p>
+</div>
+<footer id="footer" class="footer">
+    <div class="widget">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="col-md-6 col-sm-6 no-padding-l">
+                        <div class="widget-item">
+                            <a class="footer-logo" href="/">
+                                <img alt="Quản Lý Mẫu Giáo" src="~/TeamplateUser/Logo-Icon/logo_whitef1c3.png">
+                            </a>
+                            <!-- End .widget-title -->
+                            <ul class="widget-menu infomation">
+                                
+                                <li class="widget-address">
+                                    <i class="fa fa-map-marker"></i>
+                                    <span>475A Điện Biên Phủ, Phường 25, Quận Bình Thạnh, TP.HCM</span>
+                                </li>
+                                <li class="widget-address">
+                                    <i class="fa fa-internet-explorer"></i>
+                                    <span>www.quanlymaugiao.somee.com</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope"></i>
+                                    <a href="mailto:mail.quanlymaugiao@gmail.com"> mail.quanlymaugiao@gmail.com</a>
+                                </li>
+                                <li class="social_icon">
+                                    <ul>
+                                        <li>
+                                            <a target="_blank" title="Facebook" href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" title="Linkedin" href="#">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" title="vk" href="#">
+                                                <i class="fa fa-vk"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" title="Youtube" href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!-- End .widget-menu -->
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 no-padding-l">
+                        <div class="widget-item">
+                            <h4 class="widget-title">Tin nhà trường</h4>
+                            <!-- End .widget-title -->
+                            @Html.Action("NotificationForHomeFooter", "Notification")
+                            <!-- End .widget-menu -->
+                        </div>
+                        <!-- End .widget-item -->
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7838.144862588686!2d106.71030667251328!3d10.805764519206361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3830dea3e120ec8e!2sHUTECH+University+of+Technology!5e0!3m2!1sen!2s!4v1521737729347" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hidden-md hidden-lg">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="plane_fly">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hidden-xs hidden-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="plane_fly_lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 copyright-pr no-padding-r">
+                    <div class="pull-left copyright">
+                        <span>
+                            © Bản quyền thuộc về
+                            <b>Quản Lý Mẫu Giáo</b>
+                        </span>
+                    </div>
+                </div>
+                <div class="hidden-xs col-sm-12 col-md-6 no-padding-l">
+                    <div class="pull-right">
+                        <ul class="bottom_linklist"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function () {
+        FB.init({
+            xfbml: true,
+            version: 'v3.2'
+        });
+    };
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>

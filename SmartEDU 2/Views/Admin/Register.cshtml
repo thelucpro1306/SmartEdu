@@ -1,0 +1,108 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>Tạo tài khoản</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />  
+    
+    <link rel="stylesheet" type="text/css" href="~/Register/vendor/bootstrap/css/bootstrap.min.css">  
+    
+    <link href="~/Register/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    
+    <link href="~/Register/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" rel="stylesheet" />
+    
+    <link href="~/Register/fonts/iconic/css/material-design-iconic-font.min.css" rel="stylesheet" />
+   
+    <link rel="stylesheet" type="text/css" href="~/Register/vendor/animate/animate.css">
+
+    <link rel="stylesheet" type="text/css" href="~/Register/vendor/css-hamburgers/hamburgers.min.css">
+  
+    <link rel="stylesheet" type="text/css" href="~/Register/vendor/animsition/css/animsition.min.css">
+   
+    <link rel="stylesheet" type="text/css" href="~/Register/vendor/select2/select2.min.css">
+ 
+    <link rel="stylesheet" type="text/css" href="~/Register/vendor/daterangepicker/daterangepicker.css">
+   
+    <link rel="stylesheet" type="text/css" href="~/Register/css/util.css">
+    
+    <link rel="stylesheet" type="text/css" href="~/Register/css/main.css">
+  
+
+</head>
+<body style="background-color: #999999;">
+
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="login100-more" style="background-image: url('/Register/images/bg-01.jpg');"></div>
+
+            <div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
+                @using (Html.BeginForm("Register", "Admin"))
+                {
+                <form class="login100-form validate-form">
+                    <h2>
+                        Tạo tài khoản phụ huynh
+                    </h2>
+                    <br />
+                    <br />
+
+                    <div class="wrap-input100 validate-input" data-validate="Vui lòng điền họ tên">
+                        <span class="label-input100">Họ tên </span>
+                        <input class="input100" type="text" name="name" placeholder="Name...">
+                        <span class="focus-input100"></span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Vui lòng điền số điện thoại">
+                        <span class="label-input100">SDT</span>
+                        <input class="input100" type="text" name="sdt" placeholder="SDT...">
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-validate="Vui lòng điền tên đăng nhập">
+                        <span class="label-input100">Tên đăng nhập</span>
+                        <input class="input100" type="text" name="username" placeholder="Username...">
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-validate="Vui lòng điền mật khẩu">
+                        <span class="label-input100">Mật khẩu</span>
+                        <input class="input100" type="password" name="pass" placeholder="*************">
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="container-login100-form-btn">
+                        <div class="wrap-login100-form-btn">
+                            <div class="login100-form-bgbtn"></div>
+                            <button class="login100-form-btn">
+                                Tạo tài khoản
+                                
+                            </button>
+                        </div>
+
+                    </div>
+                </form>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!--===============================================================================================-->
+    <script src="~/Register/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Register/vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Register/vendor/bootstrap/js/popper.js"></script>
+    <script src="~/Register/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Register/vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Register/vendor/daterangepicker/moment.min.js"></script>
+    <script src="~/Register/vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Register/vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Register/js/main.js"></script>
+
+</body>
+</html>

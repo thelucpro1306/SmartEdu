@@ -1,0 +1,96 @@
+﻿@model SmartEDU_2.Models.KHOAHOC
+
+@{
+    ViewBag.Title = "DetailCourse";
+    Layout = "~/Views/Shared/_LayoutAd.cshtml";
+}
+
+
+
+<br />
+<h2>Thông tin chi tiết khóa học</h2>
+<style>
+
+    #table {
+        font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+        margin-top: 20px;
+        margin-left: 400px;
+    }
+
+        #table td, #table th {
+            border: 1px solid #73caef;
+            padding: 8px;
+        }
+
+        #table tr {
+            background-color: bisque;
+        }
+
+            #table tr:hover {
+                background-color: #73caef;
+            }
+
+        #table th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: white;
+            color: black;
+        }
+</style>
+
+<table id="table">
+
+    <tr>
+        <th>
+            Tên khóa học:
+        </th>
+
+        <td>
+            @Html.DisplayFor(model => model.TENKHOAHOC)
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Mô tả :
+        </th>
+
+        <td>
+            @Html.Raw(Model.MOTA)
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Học phí
+        </th>
+
+        <td>
+            @Html.DisplayFor(model => model.HOCPHI)
+        </td>
+    </tr>
+
+    <tr>
+        <th>
+            Ảnh bìa :
+        </th>
+
+        <td>
+            <img src="@Url.Content("~/images/"+Model.ANHBIA)" width="120px" />
+        </td>
+    </tr>
+
+</table>
+<br />
+<br />
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-actions no-color" align="center">
+    <button class="btn btn-3d"> @Html.ActionLink("Chỉnh sửa", "EditCourse", new { id = Model.MAKHOAHOC }) </button>|
+    <button class="btn btn-3d"> @Html.ActionLink("Trở về ", "ListCourse") </button>
+
+</div>
+}

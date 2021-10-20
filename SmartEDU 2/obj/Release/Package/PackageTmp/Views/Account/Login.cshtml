@@ -1,0 +1,93 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  -->
+    <title>Đăng nhập - Đăng ký</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login and Registration Form with HTML5 and CSS3" />
+    <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="~/Login/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="~/Login/css/animate-custom.css" />
+</head>
+<body>
+    <div >
+        <div class="container">
+            <!-- Codrops top bar -->
+            @*<header>
+                <a href="/" style="background: url(home_icon.png);background-repeat: repeat;background-position-x: 0%;background-position-y: 0%;background-repeat: no-repeat;background-position: 0 6px;padding-left: 25px;font-family:'SVN-Bali Script';font-size:30px;text-decoration:none;color:#fc9478;">&larr; Quay lại Trang Chủ</a>
+            </header>*@
+            <section>
+                <div id="container_demo">
+                    <a class="hiddenanchor" id="toregister"></a>
+                    <a class="hiddenanchor" id="tologin"></a>
+                    
+                    <div id="wrapper">
+                        <div>
+                            <div id="login" class="animate form" style="top: 20px;bottom: 0px;">
+                                @using (Html.BeginForm("Login", "Account"))
+                                {
+                                    <form action="mysuperscript.php" autocomplete="on">
+                                        <h1>ĐĂNG NHẬP</h1>
+                                        <p>
+                                            <label for="username" class="uname" data-icon="u"> Tên đăng nhập</label>
+                                            <input id="username" name="id" required="required" type="text" placeholder="VD: nguyenvana" />
+                                        </p>
+                                        <p>
+                                            <label for="password" class="youpasswd" data-icon="p"> Mật khẩu </label>
+                                            <input id="password" name="pass" required="required" type="password" placeholder="VD: abc123 " />
+                                        </p>
+
+                                        <p class="keeplogin">
+                                            <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" />
+                                            <label for="loginkeeping">Nhớ mật khẩu</label>
+                                        </p>
+                                        <h3 style="color:red">@ViewBag.Notifi</h3>
+                                        <p class="login button" style="text-align:center;">
+                                            <input type="submit" value="Ðăng nhập" />
+                                        </p>
+
+                                    </form>
+                                }
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+    #register, #login {
+        width: auto !important;
+    }
+
+    #wrapper {
+        padding: 10px 5px 10px 0px;
+        width: 100%;
+        max-width: 500px;
+    }
+
+        #wrapper p.button input {
+            width: 50%;
+        }
+
+    #login {
+        width: 100% !important;
+    }
+</style>
+
+

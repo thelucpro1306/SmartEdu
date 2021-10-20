@@ -1,0 +1,351 @@
+﻿@model IEnumerable<SmartEDU_2.Models.KHOAHOC>
+
+@{
+    var tk = (SmartEDU_2.Models.TAIKHOAN)Session["TAIKHOAN"];
+    var tt = (SmartEDU_2.Models.HOCSINH)ViewData["HOCSINH"];
+    ViewBag.Title = "ApplyToACourse";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+    var tendn = tk == null ? ""  : tk.TENDANGNHAP;
+}
+
+
+@foreach (var item in Model)
+{
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Đăng Ký Khóa Học</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--===============================================================================================-->
+        <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="~/RegisterToGoToSchool/vendor/bootstrap/css/bootstrap.min.css">
+        <!--=========================================~/RegisterToGoToSchool/======================================================-->
+        <link rel="stylesheet" type="text/css" href="~/RegisterToGoToSchool/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+        <!--=========================================~/RegisterToGoToSchool/======================================================-->
+        <link rel="stylesheet" type="text/css" href="~/RegisterToGoToSchool/vendor/animate/animate.css">
+        <!--=========================================~/RegisterToGoToSchool/======================================================-->
+        <link rel="stylesheet" type="text/css" href="~/RegisterToGoToSchool/vendor/css-hamburgers/hamburgers.min.css">
+        <!--=========================================~/RegisterToGoToSchool/======================================================-->
+        <link rel="stylesheet" type="text/css" href="~/RegisterToGoToSchool/vendor/animsition/css/animsition.min.css">
+        <!--=========================================~/RegisterToGoToSchool/======================================================-->
+        <link rel="stylesheet" type="text/css" href="~/RegisterToGoToSchool/vendor/select2/select2.min.css">
+        <!--=========================================~/RegisterToGoToSchool/======================================================-->
+        <link rel="stylesheet" type="text/css" href="~/RegisterToGoToSchool/vendor/daterangepicker/daterangepicker.css">
+        <!--=========================================~/RegisterToGoToSchool/======================================================-->
+        <link rel="stylesheet" type="text/css" href="~/RegisterToGoToSchool/css/util.css">
+        <link rel="stylesheet" type="text/css" href="~/RegisterToGoToSchool/css/main.css">
+        <!--===============================================================================================-->
+    </head>
+    <body>
+        <div class="header-breadcrumb" style="margin-bottom: 0px;">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-xs-12">
+                        <ol class="breadcrumb" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                            <li class="home">
+                                <a itemprop="url" href="/"><span itemprop="title">Trang chủ</span></a>
+                                <span><i class="fa fa-angle-right"></i></span>
+                            </li>
+
+                            <li>Đăng ký khóa học</li>
+
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @ViewBag.Notifi
+        <div class="container-contact100">
+            <div class="wrap-contact100" align="center">
+                @using (Html.BeginForm("Index", "GoToSchool"))
+                {
+                    <form class="contact100-form validate-form">
+                        <span class="contact100-form-title">
+                            ĐIỀN THÔNG TIN - XÁC NHẬN ĐĂNG KÝ
+                        </span>
+                        <div class="col-lg-12">
+                            <div class="col-lg-6 col-sm-12">
+                                <div style="border:solid;color:#0d72ba;padding:20px;border-radius:20px">
+
+
+                                    <div class="wrap-input100 validate-input">
+                                        <span class="label-input100">Họ tên của bé</span>
+                                        <input class="input100" type="text" name="hotenbe" placeholder="VD: Bé Quang Lý" required value="@tt.HOTEN">
+                                        <span class="focus-input100"></span>
+                                    </div>
+
+                                    <div class="wrap-input100 validate-input">
+                                        <span class="label-input100">Giới tính:</span> <br />
+                                        <select style="width:100%;height:40px;font-size:18px;color:#333333;border-radius: 20px;padding: 0 10px;">
+                                            <option value="gtNam">Nam</option>
+                                            <option value="gtNu">Nữ</option>
+                                        </select>
+                                        <span class="focus-input100"></span>
+                                    </div>
+
+                                    <div class="wrap-input100 validate-input">
+                                        <span class="label-input100">Năm sinh</span>
+                                        <input class="input100" type="date" name="namsinh" required placeholder="19/12/2015">
+                                        <span class="focus-input100"></span>
+                                    </div>
+
+                                    <div class="dangnhap wrap-input100 validate-input">
+                                        <span class="label-input100">Họ tên người giám hộ</span>
+                                        <input class="input100" type="text" name="hotencha" placeholder="VD: Nguyễn Văn A">
+                                        <span class="focus-input100"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <div style="border:solid;color:#0d72ba;padding:20px;border-radius:20px">
+
+                                    <div class="wrap-input100 validate-input">
+                                        <span class="label-input100">Mã khóa học :</span>
+                                        <input class="input100" type="text" name="makhoahoc" required value="@item.MAKHOAHOC" readonly>
+                                        <span class="focus-input100"></span>
+                                    </div>
+
+                                    <div class="wrap-input100 validate-input">
+                                        <span class="label-input100">Tên khóa học :</span>
+                                        <input class="input100" type="text" name="tenkhoahoc" required value="@item.TENKHOAHOC" readonly>
+                                        <span class="focus-input100"></span>
+                                    </div>
+
+                                    <div class="wrap-input100 validate-input">
+                                        <span class="label-input100">Học phí (VNĐ) :</span>
+                                        <input class="input100" type="text" name="hocphi" required value="@item.HOCPHI" readonly>
+                                        <span class="focus-input100"></span>
+                                    </div>
+                                    <div class="dangnhap wrap-input100 validate-input">
+                                        <span class="label-input100">Số điện thoại liên lạc</span>
+                                        <input class="input100" type="text" name="sdt" placeholder="VD: 0344065461">
+                                        <span class="focus-input100"></span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="container-contact100-form-btn col-lg-12" style="padding: 10px 30px;">
+                            <div class="wrap-contact100-form-btn">
+                                <div class="contact100-form-bgbtn"></div>
+                                <button class="contact100-form-btn">
+                                    Đăng Ký Nhập Học
+                                    <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+
+
+
+
+                    </form>
+                }
+            </div>
+        </div>
+
+        <div id="dropDownSelect1"></div>
+        <!--===============================================================================================-->
+        <script src="~/RegisterToGoToSchool/vendor/jquery/jquery-3.2.1.min.js"></script>
+        <!--=========~/RegisterToGoToSchool/======================================================================================-->
+        <script src="~/RegisterToGoToSchool/vendor/animsition/js/animsition.min.js"></script>
+        <!--=========~/RegisterToGoToSchool/======================================================================================-->
+        <script src="~/RegisterToGoToSchool/vendor/bootstrap/js/popper.js"></script>
+        <script src="~/RegisterToGoToSchool/vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!--=========~/RegisterToGoToSchool/======================================================================================-->
+        <script src="~/RegisterToGoToSchool/vendor/select2/select2.min.js"></script>
+        <script>
+            $(".selection-2").select2({
+                minimumResultsForSearch: 20,
+                dropdownParent: $('#dropDownSelect1')
+            });
+        </script>
+
+        <!--===============================================================================================-->
+        <script src="~/RegisterToGoToSchool/vendor/daterangepicker/moment.min.js"></script>
+        <script src="~/RegisterToGoToSchool/vendor/daterangepicker/daterangepicker.js"></script>
+        <!--=========~/RegisterToGoToSchool/======================================================================================-->
+        <script src="~/RegisterToGoToSchool/vendor/countdowntime/countdowntime.js"></script>
+        <!--=========~/RegisterToGoToSchool/======================================================================================-->
+        <script src="~/RegisterToGoToSchool/js/main.js"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'UA-23581568-13');
+        </script>
+
+    </body>
+</html>
+}
+
+
+
+<div>
+    <div class="container">
+        <div class="row">
+           
+                    <a id="brand-next" href="owl-demo-brand">
+                        <i class="fa fa-caret-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer id="footer" class="footer">
+    <div class="widget">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="col-md-6 col-sm-6 no-padding-l">
+                        <div class="widget-item">
+                            <a class="footer-logo" href="/">
+                                <img alt="Quản Lý Mẫu Giáo" src="~/TeamplateUser/Logo-Icon/logo_whitef1c3.png">
+                            </a>
+                            <!-- End .widget-title -->
+                            <ul class="widget-menu infomation">
+                                
+                                <li class="widget-address">
+                                    <i class="fa fa-map-marker"></i>
+                                    <span>475A Điện Biên Phủ, Phường 25, Quận Bình Thạnh, TP.HCM</span>
+                                </li>
+                                <li class="widget-address">
+                                    <i class="fa fa-internet-explorer"></i>
+                                    <span>www.quanlymaugiao.somee.com</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope"></i>
+                                    <a href="mailto:mail.quanlymaugiao@gmail.com"> mail.quanlymaugiao@gmail.com</a>
+                                </li>
+                                <li class="social_icon">
+                                    <ul>
+                                        <li>
+                                            <a target="_blank" title="Facebook" href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" title="Linkedin" href="#">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" title="vk" href="#">
+                                                <i class="fa fa-vk"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" title="Youtube" href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!-- End .widget-menu -->
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 no-padding-l">
+                        <div class="widget-item">
+                            <h4 class="widget-title">Tin nhà trường</h4>
+                            <!-- End .widget-title -->
+                            @Html.Action("NotificationForHomeFooter", "Notification")
+                            <!-- End .widget-menu -->
+                        </div>
+                        <!-- End .widget-item -->
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7838.144862588686!2d106.71030667251328!3d10.805764519206361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3830dea3e120ec8e!2sHUTECH+University+of+Technology!5e0!3m2!1sen!2s!4v1521737729347" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hidden-md hidden-lg">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="plane_fly">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hidden-xs hidden-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="plane_fly_lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 copyright-pr no-padding-r">
+                    <div class="pull-left copyright">
+                        <span>
+                            © Bản quyền thuộc về
+                            <b>Quản Lý Mẫu Giáo Solution</b>
+                        </span>
+                    </div>
+                </div>
+                <div class="hidden-xs col-sm-12 col-md-6 no-padding-l">
+                    <div class="pull-right">
+                        <ul class="bottom_linklist"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+@*<div class="fb-customerchat"
+     attribution=setup_tool
+     page_id="729666384059010"
+     theme_color="#e68585"
+     logged_in_greeting="Bạn có cần mình giúp gì không ?"
+     logged_out_greeting="Bạn có cần mình giúp gì không ?">
+</div>*@
+
+<style>
+    .label-input100 {
+        float: left;
+    }
+    
+</style>
+
+<script language="JavaScript" type="text/javascript">
+    $(document).ready(function () {
+
+
+
+        if ('@tendn' != "") {
+            $(".dangnhap").hide();
+       
+        }
+    });
+
+</script>
+
