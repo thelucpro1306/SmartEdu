@@ -1,0 +1,69 @@
+﻿@model SmartEDU_2.Models.THONGBAO
+
+@{
+    ViewBag.Title = "AddNotification";
+    Layout = "~/Views/Shared/_LayoutAd.cshtml";
+}
+
+<br />
+<h2>Thêm một thông báo</h2>
+@using (Html.BeginForm("AddNotification", "Admin", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    
+
+<div class="form-horizontal">
+    <h4> </h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(model => model.TIEUDE, "Tiêu đề thông báo ", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.TIEUDE, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.TIEUDE, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.MOTA, "Mô tả", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <textarea name="Mota">  Mô tả ngắn cho thông báo</textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.NOIDUNG, "Nội dung thông báo ", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.NOIDUNG, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.NOIDUNG, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.HINHANH, "Ảnh bìa", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <input type="file" name="fileupload" />
+            @ViewBag.Thongbao
+        </div>
+    </div>
+    @*<div class="form-group">
+            @Html.LabelFor(model => model.TRANGTHAI, "Trạng Thái", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.TRANGTHAI, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.TRANGTHAI, "", new { @class = "text-danger" })
+            </div>
+        </div>*@
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="THÊM MỚI" class="btn btn-default" />
+            <div class="btn btn-default">
+                @Html.ActionLink("TRỞ VỀ", "ListNotification")
+            </div>
+
+        </div>
+    </div>
+</div>
+}
+
